@@ -1,0 +1,72 @@
+PARTISAN COMPOSITION AND WEATHER EFFECTS ANALYSIS
+=============================================
+
+1. PARTISAN REPRESENTATION IN AFFECTED AREAS
+
+Partisan Distribution:
+
+Overall Distribution:
+  Strong Dem: 20.0%
+  Lean Dem: 20.0%
+  Lean Rep: 20.0%
+  Strong Rep: 20.0%
+  Swing: 20.0%
+
+Treatment Distribution:
+  Lean Dem: 24.7%
+  Swing: 20.8%
+  Lean Rep: 19.7%
+  Strong Dem: 18.4%
+  Strong Rep: 16.4%
+
+Control Distribution:
+  Strong Dem: 21.1%
+  Lean Dem: 20.3%
+  Lean Rep: 20.0%
+  Swing: 19.9%
+  Strong Rep: 18.7%
+
+Chi-square test of independence:
+  Statistic: 85.52
+  P-value: 0.0000
+
+Mean Republican Lean by Group:
+  Treatment: 0.599 (±0.154), n=2580
+  Control: 0.601 (±0.162), n=2587
+  Other: 0.603 (±0.162), n=5175
+
+2. DIFFERENTIAL EFFECTS BY PARTISAN LEANING
+
+Effects by Partisan Quintile:
+
+Strong Dem:
+  Effect size: -0.03 percentage points
+  P-value: 0.0149
+  Sample sizes: 468 treatment, 536 control
+
+Lean Dem:
+  Effect size: -0.01 percentage points
+  P-value: 0.3341
+  Sample sizes: 633 treatment, 523 control
+
+Strong Rep:
+  Effect size: -0.00 percentage points
+  P-value: 0.8184
+  Sample sizes: 423 treatment, 483 control
+
+Lean Rep:
+  Effect size: 0.00 percentage points
+  P-value: 0.9748
+  Sample sizes: 509 treatment, 517 control
+
+Swing:
+  Effect size: -0.01 percentage points
+  P-value: 0.2591
+  Sample sizes: 534 treatment, 516 control
+
+Interaction Model:
+  Coefficients:
+    treatment: -0.0242
+    avg_rep_ratio_excl_event: -0.1012
+    interaction: 0.0206
+  R-squared: 0.008

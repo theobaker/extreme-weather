@@ -1,0 +1,75 @@
+MLE Results: Beta_0 = 0.0544, Beta_1 = -0.1098
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      voter_turnout_pct   R-squared:                       0.009
+Model:                            OLS   Adj. R-squared:                  0.007
+Method:                 Least Squares   F-statistic:                     5.886
+Date:                Tue, 10 Dec 2024   Prob (F-statistic):             0.0155
+Time:                        17:43:02   Log-Likelihood:                 343.42
+No. Observations:                 687   AIC:                            -682.8
+Df Residuals:                     685   BIC:                            -673.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.5136      0.009     60.416      0.000       0.497       0.530
+is_treatment    -0.0274      0.011     -2.426      0.016      -0.050      -0.005
+==============================================================================
+Omnibus:                      155.419   Durbin-Watson:                   0.680
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              375.528
+Skew:                          -1.176   Prob(JB):                     2.85e-82
+Kurtosis:                       5.754   Cond. No.                         2.80
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Decision Tree R^2 Score: -0.1349
+Event Type: Winter Storm
+               mean    median       std  count
+group                                         
+control    0.635065  0.653634  0.067013     20
+excluded   0.633625  0.631201  0.131735    153
+treatment  0.570092  0.601180  0.100983     27
+Treatment Mean: 0.5701, Control Mean: 0.6351
+Treatment Std Dev: 0.1010, Control Std Dev: 0.0670
+Event Type: Blizzard
+               mean    median       std  count
+group                                         
+control    0.637863  0.638212  0.083759     26
+excluded   0.647859  0.642367  0.080693     47
+treatment  0.646226  0.645457  0.080191     18
+Treatment Mean: 0.6462, Control Mean: 0.6379
+Treatment Std Dev: 0.0802, Control Std Dev: 0.0838
+Event Type: Flood
+               mean    median       std  count
+group                                         
+control    0.516672  0.515582  0.066177     48
+excluded   0.497306  0.524196  0.158841    178
+treatment  0.461116  0.519472  0.214166    160
+Treatment Mean: 0.4611, Control Mean: 0.5167
+Treatment Std Dev: 0.2142, Control Std Dev: 0.0662
+Event Type: Tornado
+               mean    median       std  count
+group                                         
+control    0.487840  0.485942  0.098167    188
+excluded   0.463827  0.441275  0.075767     61
+treatment  0.459948  0.449425  0.083700     76
+Treatment Mean: 0.4599, Control Mean: 0.4878
+Treatment Std Dev: 0.0837, Control Std Dev: 0.0982
+Event Type: Wildfire
+               mean    median       std  count
+group                                         
+control    0.648945  0.638738  0.105919      5
+excluded   0.532089  0.523022  0.138373     24
+treatment  0.563559  0.582764  0.130430     11
+Treatment Mean: 0.5636, Control Mean: 0.6489
+Treatment Std Dev: 0.1304, Control Std Dev: 0.1059
+Event Type: Flash Flood
+               mean    median       std  count
+group                                         
+control    0.376511  0.452787  0.183464     12
+excluded   0.385141  0.434490  0.152527    135
+treatment  0.486103  0.512773  0.135558     96
+Treatment Mean: 0.4861, Control Mean: 0.3765
+Treatment Std Dev: 0.1356, Control Std Dev: 0.1835
